@@ -1,0 +1,29 @@
+{
+  "name": "remotion-video-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion 视频工程模板：画面板 + 镜头运动 + 调色 + 粒子 + 字幕 + 动态标注",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node scripts/run-remotion.mjs studio",
+    "render": "node scripts/run-remotion.mjs render",
+    "still": "node scripts/run-remotion.mjs still",
+    "art": "python tools/make-placeholder-art.py",
+    "tex": "python tools/make-tex.py",
+    "audio": "node scripts/make-audio.mjs",
+    "review": "python tools/make-review.py",
+    "plates": "python tools/gen-plates.py"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/transitions": "4.0.529",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

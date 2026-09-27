@@ -1,0 +1,11 @@
+node_modules/
+.tmp/
+out/
+.raw/
+*.log
+
+# 模板里生成出来的素材（跑脚本重新生成即可）
+assets/template/public/art/*.jpg
+assets/template/public/audio/*.wav
+assets/template/public/tex/*.png
+assets/template/public/tex/*.jpg

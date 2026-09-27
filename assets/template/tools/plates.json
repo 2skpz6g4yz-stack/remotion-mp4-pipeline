@@ -1,0 +1,26 @@
+{
+  "tail": "minimalist, high contrast, highly detailed, sharp, no text, no letters, no words",
+  "style": {
+    "open": "cosmic, deep indigo and gold, elegant",
+    "body": "traditional Chinese ink aesthetic, warm ochre and ivory, elegant",
+    "close": "cold blue and teal, dark background, elegant"
+  },
+  "plates": {
+    "open-01": {
+      "act": "open",
+      "prompt": "a vast deep indigo nebula with drifting gold dust in dark space, minimal, epic"
+    },
+    "body-01": {
+      "act": "body",
+      "prompt": "a single sheet of handmade paper with faint ink stains, isolated and centred on a dark background, soft even light, museum photograph"
+    },
+    "body-02": {
+      "act": "body",
+      "prompt": "a lone mountain ridge in mist, ink wash, vast empty space above, serene"
+    },
+    "close-01": {
+      "act": "close",
+      "prompt": "a calm dark ocean surface with a single faint light below, cold blue, minimal, epic"
+    }
+  }
+}
